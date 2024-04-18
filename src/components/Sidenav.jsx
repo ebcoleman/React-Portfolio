@@ -19,11 +19,11 @@ const Sidenav = () => {
                             <AiOutlineHome size={20} />
                             <span className='pl-4'>Home</span>
                         </a>
-                        <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <a href="#about" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <BsPersonRaisedHand size={20} />
                             <span className='pl-4'>About Me</span>
                         </a>
-                        <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <a href="#projects" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <GrProjects size={20} />
                             <span className='pl-4'>Projects</span>
                         </a>
@@ -31,7 +31,7 @@ const Sidenav = () => {
                             <GrDocumentText size={20} />
                             <span className='pl-4'>Resume</span>
                         </a>
-                        <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <a href="#contact" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <GrContact size={20} />
                             <span className='pl-4'>Contact</span>
                         </a>
@@ -41,10 +41,21 @@ const Sidenav = () => {
                     ''
                 )}
                     <div className='md:block hidden fixed top-[25%] z-10'>
-                        <div>
-                            {/* stopped at 24:10 of https://www.youtube.com/watch?v=22CxRxryQFE */}
-                            <a href="#main" className=''>
-                                <AiOutlineHome />
+                        <div className='flex flex-col'>
+                            <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <AiOutlineHome size={20} />
+                            </a>
+                            <a href="#about" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <BsPersonRaisedHand size={20} />
+                            </a>
+                            <a href="#project" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <GrProjects size={20} />
+                            </a>
+                            <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <GrDocumentText size={20} />
+                            </a>
+                            <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <GrContact size={20} />
                             </a>
                         </div>
                     </div>
