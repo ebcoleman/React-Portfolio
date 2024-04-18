@@ -12,7 +12,11 @@ Currently, two official plugins are available:
 
 https://www.youtube.com/watch?v=22CxRxryQFE
 
+https://v2.tailwindcss.com/docs
+
 https://react-icons.github.io/react-icons/
 
 https://www.npmjs.com/package/react-type-animation
+
+https://docs.getform.io/
 
