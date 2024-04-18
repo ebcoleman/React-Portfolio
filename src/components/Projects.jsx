@@ -13,10 +13,18 @@ const Projects = () => {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit neque debitis obcaecati mollitia illum earum porro, id dolorum ratione dolores aperiam laudantium velit temporibus? Nulla praesentium a suscipit molestias cupiditate.
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <ProjectItem img={portfolioImg} title='First Portfolio App' />  
-                <ProjectItem img={faceSpaceImg} title='FaceSpace App' />
-                <ProjectItem img={passwordImg} title='Password Generator App' />
-                <ProjectItem img={weatherImg} title='Weather App' />
+                <a href="https://ebcoleman.github.io/Portfolio-Emily-Coleman/" target="_blank" rel="noopener noreferrer">  
+                    <ProjectItem img={portfolioImg} title='First Portfolio App' />
+                </a>
+                <a href="https://github.com/ebcoleman/faceSpace" target="_blank" rel="noopener noreferrer">
+                    <ProjectItem img={faceSpaceImg} title='FaceSpace App' />
+                </a>
+                <a href="https://ebcoleman.github.io/password-generator/" target="_blank" rel="noopener noreferrer">
+                    <ProjectItem img={passwordImg} title='Password Generator App' />
+                </a>
+                <a href="https://ebcoleman.github.io/traveler-weather/" target="_blank" rel="noopener noreferrer">
+                    <ProjectItem img={weatherImg} title='Weather App' />
+                </a>
             </div>
         </div>
     )
