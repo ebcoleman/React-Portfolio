@@ -9,8 +9,8 @@ const Projects = () => {
     return (
         <div id="projects" className="max-w-[1040px] m-auto md:pl-29 p-4 py-16">
             <h1 className="text-4xl font-bold text-center text-[#4C783F]">Projects</h1>
-            <p className="text-center py-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit neque debitis obcaecati mollitia illum earum porro, id dolorum ratione dolores aperiam laudantium velit temporibus? Nulla praesentium a suscipit molestias cupiditate.
+            <p className="text-center py-8 text-[#222E0F]">
+                Please see below for a few samples of my work. 
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
                 <a href="https://ebcoleman.github.io/Portfolio-Emily-Coleman/" target="_blank" rel="noopener noreferrer">  
