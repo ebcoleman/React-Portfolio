@@ -60,7 +60,7 @@ const Contact = () => {
                     name="email" 
                     onBlur={handleBlur}
                     />
-                    {errors.email && <span className="text-red-500">{errors.email} <br />{errors.name}
+                    {errors.email && <span className="text-red-500">{errors.email}
                     </span>}
                     
                 </div>
