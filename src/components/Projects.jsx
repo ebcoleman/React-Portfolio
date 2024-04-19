@@ -9,7 +9,7 @@ import logoImg from "../assets/basic-logo-maker.jpg"
 const Projects = () => {
     return (
         <div id="projects" className="max-w-[1040px] m-auto md:pl-29 p-4 py-16">
-            <h1 className="text-4xl font-bold text-center text-[#4C783F]">Projects</h1>
+            <h1 className="text-4xl font-bold text-center text-[#4C783F]">Portfolio</h1>
             <p className="text-center py-8 text-[#222E0F]">
                 Please see below for a few samples of my work. Click the image to see the live application or walk-through video.
             </p>
