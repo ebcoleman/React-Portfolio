@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import { TypeAnimation } from "react-type-animation";
 import { IoLogoGithub } from "react-icons/io";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";

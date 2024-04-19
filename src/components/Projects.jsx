@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectItem from "./ProjectItem";
 import faceSpaceImg from "../assets/faceSpace.png"
 import passwordImg from "../assets/password-generator.jpg"
