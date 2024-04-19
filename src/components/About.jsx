@@ -3,11 +3,11 @@ import AboutItem from './AboutItem'
 const data  = [
     {
         title: 'Personal',
-        details: 'My name is Emily Coleman. I am a Virginia native but currently reside in Michigan. You\'ll often find me outdoors, exploring nature\'s wonders with my wife and daughter. When we\'re not soaking up the sunshine, you\'ll likely find us whipping up delicious meals in the kitchen or cozied up on the couch having a movie night together'
+        details: 'My name is Emily Coleman. I am a Virginia native but currently reside in Michigan. You\'ll often find me outdoors, exploring nature\'s wonders with my wife and daughter. When we\'re not soaking up the sunshine, you\'ll likely find us whipping up delicious meals in the kitchen or cozied up on the couch having a movie night together.'
     },
     {
         title: 'Professional',
-        details: 'My professional background is primarily in shipping and receiving management. However, I am actively transitioning my career trajectory towards web development. This shift follows the successful completion of the Full Stack Web Developer Bootcamp offered by edX, where I acquired comprehensive skills and knowledge in modern web development practices. '
+        details: 'My professional background is primarily in shipping and receiving management. However, I am actively transitioning my career trajectory towards web development. This shift follows the successful completion of the Full Stack Web Developer Bootcamp offered by edX through Michigan State University. During the bootcamp, I acquired comprehensive skills and knowledge in modern web development practices. '
     },
 ]
 const About = () => {
