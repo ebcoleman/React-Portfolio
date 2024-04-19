@@ -4,6 +4,8 @@ import faceSpaceImg from "../assets/faceSpace.png"
 import passwordImg from "../assets/password-generator.jpg"
 import portfolioImg from "../assets/portfolio-emily-coleman.jpg"
 import weatherImg from "../assets/traveler-weather.jpg"
+import challengeImg from "../assets/challenge-01.png"
+import logoImg from "../assets/basic-logo-maker.jpg"
 
 const Projects = () => {
     return (
@@ -24,6 +26,12 @@ const Projects = () => {
                 </a>
                 <a href="https://ebcoleman.github.io/traveler-weather/" target="_blank" rel="noopener noreferrer">
                     <ProjectItem img={weatherImg} title='Weather App' />
+                </a>
+                <a href="https://ebcoleman.github.io/Challenge-01/" target="_blank" rel="noopener noreferrer">
+                    <ProjectItem img={challengeImg} title='HTML/CSS App' />
+                </a>
+                <a href="https://github.com/ebcoleman/basic-logo-maker" target="_blank" rel="noopener noreferrer">
+                    <ProjectItem img={logoImg} title='SVG Logo Maker' />
                 </a>
             </div>
         </div>
