@@ -20,3 +20,4 @@ https://www.npmjs.com/package/react-type-animation
 
 https://docs.getform.io/
 
+https://legacy.reactjs.org/docs/events.html#form-events
