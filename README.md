@@ -1,12 +1,18 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is my professional Portfolio built using React, Vite, and Tailwind CSS. There is navigation for the application either on the sidenav or the nav list depending on screen size. The Portfolio section displays images of the application which can be clicked on to see the live application or walk-throught video. The user is also able to click on "GitHub Repo" to route them directly to that project's repository. In the Resume section there is a download icon that the user can click on to be routed directly to my Resume. I used Getform for the contact form. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
 
+Screenshot: 
+
+![Alt text](./src/assets/images/portfolio.png)
+
+Link:
+
+https://emilycoleman.netlify.app/
 
 ## Credits
 
@@ -22,10 +28,6 @@ https://docs.getform.io/
 
 https://legacy.reactjs.org/docs/events.html#form-events
 
+https://coolors.co/
 
-
-
-
-
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+Asked questions on https://chat.openai.com/ to help troubleshoot situations where I was stuck.
