@@ -4,12 +4,28 @@ import ResumeItem from './ResumeItem'
 
 const data  = [
     {
-        title: 'Personal',
-        details: 'My name is Emily Coleman. I am a Virginia native but currently reside in Michigan. You\'ll often find me outdoors, exploring nature\'s wonders with my wife and daughter. When we\'re not soaking up the sunshine, you\'ll likely find us whipping up delicious meals in the kitchen or cozied up on the couch having a movie night together.'
+        title: 'Programming Languages',
+        details: 'HTML, CSS, JavaScript'
     },
     {
-        title: 'Professional',
-        details: 'My professional background is primarily in shipping and receiving management. However, I am actively transitioning my career trajectory towards web development. This shift follows the successful completion of the Full Stack Web Developer Bootcamp offered by edX through Michigan State University. During the bootcamp, I acquired comprehensive skills and knowledge in modern web development practices. '
+        "title": "Version Control Systems",
+        "details": "Git"
+    },
+    {
+        title: 'Frontend Technologies and Tools',
+        details: 'React.js, Handlebars.js, Bootstrap, Tailwind CSS, Progressive Web Apps(PWAs), Integration of APIs for enhanced functionality, Responsive design, npm'
+    },
+    {
+        title: 'Backend Technologies and Tools',
+        details: 'Node.js, Express.js, RESTful APIs, MongoDB, MySQL, Mongoose, Sequelize, Model-View-Controller(MVC) architecture'
+    },
+    {
+        title: 'Testing and Debugging',
+        details: 'Jest, Chrome DevTools'
+    },
+    {
+        title: 'Other Skills',
+        details: 'Git, Object-oriented programming(OOP), Problem-solving abilities, Collaboration, Teamwork, Communication'
     },
 ]
 const Resume = () => {
@@ -21,6 +37,7 @@ const Resume = () => {
         <       GrDocumentDownload className="ml-2 cursor-pointer" />
                 </a>
             </h1>
+            <h2 className="text-2xl font-bold text-[#4C783F] flex justify-left pt-6 pb-8">Developer Proficiencies</h2>
             {data.map((item, idx)=>(
                 <ResumeItem 
                 key={idx} 
